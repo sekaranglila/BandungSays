@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('fonts/BebasNeue-webfont.eot');
+	src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/BebasNeue-webfont.woff') format('woff'),
+		 url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+		 url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.container {
+	background: #fff url(../images/bg.jpg) repeat top left;
+}
+.header {
+	text-align: center;
+}
+.header h1 {
+	color: #1d3c41;
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 80px;
+	line-height: 10px;
+	position: relative;
+	font-weight: 400;
+	color: rgba(26,89,120,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	padding: 0px 0px 5px 0px;
+}
+.header h1 span{
+	color: #ff0066;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+.header p {
+	color: #8080ff;
+	font-size: 22px;
+	font-style: normal;
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+.content {
+	width: 600px;
+	height: 580px;
+	margin: auto;
+	padding: 18px 6% 60px 6%;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	border-radius: 5px;
+	text-align: center;
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+.in {
+	display: inline-block;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 8px;
+	color: #333;
+	box-shadow: 
+		inset 0 2px 0 rgba(0,0,0,.2), 
+		0 0 4px rgba(0,0,0,0.1);
+}
+.in:focus {
+	display: inline-block;
+	outline: none;
+	box-shadow: 
+		inset 0 2px 0 rgba(0,0,0,.2), 
+		0 0 4px rgba(0,0,0,0.1), 
+		0 0 5px 1px #51CBEE;
+}
+.sub {
+	display: inline-block;
+	padding: 8px;
+	border: 3px solid #FCB326;
+	border-radius: 6px;
+	box-shadow: 
+		0 2px 1px rgba(0, 0, 0, 0.2), 
+		inset 0 2px 1px rgba(0, 0, 0, 0.2);
+	/* Font styles */
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #222;
+}
+.sub:hover {
+	border-color: #FDD68B
+}
+.sub:active {
+	border-color: #FEE8BD
+}
+.error {
+	color: #FF0000;
+}
+.aboutus{
+	margin: auto;
+	width: 750px;
+	padding: 10px;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: #6AB3EC;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+.aboutus:hover {
+	color: #3C9CE7;
+}
+.aboutus:before {
+	content: "\25BA";
+	font-size: 80%;
+	display: inline-block;
+	padding-right: 3px;
+	pointer-events: none;
+}
+.aboutus:hover:before {
+	color: #F2BF97;
+}
